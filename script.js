@@ -19,7 +19,8 @@ $(document).ready(function () {
    
     function timeTracker() {
         //get current number of hours.
-        var timeNow = day.().hour();
+        var timeNow = dayjs().hour();
+
 
         // loop over time blocks
         $(".time-block").each(function () {
