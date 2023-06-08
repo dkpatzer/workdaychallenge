@@ -3,7 +3,9 @@
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
 // Display today's day and date
-var todayDate = dayjs().format('dddd, MMM Do YYYY');
+var todayDate = dayjs().format('dddd, MMM D YYYY');
+
+
 $("#currentDay").html(todayDate);
 
 $(document).ready(function () {
